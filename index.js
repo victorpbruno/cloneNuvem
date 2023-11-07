@@ -47,7 +47,7 @@ app.get('/contato', (req, res) => {
 });
 
 // Inicia o servidor
-const port = 3001;
+const port = 3000;
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
